@@ -9,9 +9,8 @@ public:
                  nums[i+1]=0;
             }
         if(nums[i]!=0){
-            if(i!=j){
                 swap(nums[i],nums[j]);
-            }
+            
             j++;
         }
 
