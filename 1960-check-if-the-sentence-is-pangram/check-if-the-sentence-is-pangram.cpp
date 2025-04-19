@@ -13,4 +13,10 @@ public:
         }
         return true;
     }
-};
+
+     /*unordered_set<int>st;
+    for(char ch:sentence){
+        st.insert(ch);
+    }
+    if(st.size()==26) return true;*/
+ };
