@@ -4,13 +4,13 @@ public:
     map<int,int>mpp;
     for(int i=0;i<nums.size();i++){
         int a=nums[i];
-        int more = target-a;
+        int more=target-a;
         if(mpp.find(more)!=mpp.end()){
             return {mpp[more],i};
         }
-        mpp[a]=i;
+        mpp[nums[i]]=i;
     }
     return {};
-    }
+          }
 
 };
